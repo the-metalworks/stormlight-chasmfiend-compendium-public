@@ -1,6 +1,8 @@
 ## Chasmfiend Compendium
 
-The Chasmfiend Compendium contains content made available for free by Brotherwise Games for use with the Cosmere Roleplaying Game System in Foundry VTT.
+Free bonus content from Chasmfiend Magazine Volumes 1 & 2 for the Cosmere Roleplaying Game! This includes an exclusive one-shot adventure, adversary profiles, and more!
+
+This compendium will also be the home for any content that Brotherwise Games releases for free for the *Cosmere Roleplaying Game*.
 
 ----
 
