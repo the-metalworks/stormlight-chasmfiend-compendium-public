@@ -1,0 +1,105 @@
+{
+    "id": "cosmere-rpg-stormlight-chasmfiend-compendium",
+    "title": "Cosmere RPG - Stormlight Chasmfiend Compendium",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12.343",
+        "maximum": "12.343"
+    },
+    "authors": [
+        {
+            "name": "Brotherwise Games",
+            "flags": {}
+        },
+        {
+            "name": "The Metalworks",
+            "url": "https://github.com/the-metalworks",
+            "flags": {}
+        }
+    ],
+    "esmodules": [
+        "index.js"
+    ],
+    "styles": [
+        "output.css"
+    ],
+    "packs": [
+        {
+            "name": "items",
+            "label": "Items",
+            "path": "packs/items",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "cosmere-rpg"
+        },
+        {
+            "name": "adversaries",
+            "label": "Adversaries",
+            "path": "packs/adversaries",
+            "type": "Actor",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "cosmere-rpg"
+        },
+        {
+            "name": "adventures",
+            "label": "Adventures",
+            "path": "packs/adventures",
+            "type": "Adventure",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            },
+            "system": "cosmere-rpg"
+        }
+    ],
+    "packFolders": [
+		{
+			"name": "Stormlight Chasmfiend Compendium",
+			"sorting": "m",
+			"color": "#141f3c",
+			"packs": [
+				"adventures",
+				"adversaries",
+				"items"
+			]
+}
+],
+    "relationships": {
+        "systems": [
+            {
+                "id": "cosmere-rpg",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/the-metalworks/cosmere-rpg/refs/heads/release-1.0.0/src/system.json",
+                "compatibility": {
+                    "verified": "1.0.0"
+                }
+            }
+        ]
+    },
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }
+    ],
+    "media": [
+        {
+            "type": "setup",
+            "thumbnail": "modules/cosmere-rpg-stormlight-chasmfiend-compendium/assets/art/foundry_setup_chasmfiend_compendium.webp",
+            "loop": false,
+            "flags": {}
+        }
+    ],
+    "url": "https://github.com/the-metalworks/stormlight-chasmfiend-compendium-public",
+    "manifest": "https://github.com/the-metalworks/stormlight-chasmfiend-compendium-public/releases/download/release-1.0.0/module.json",
+    "download": "https://github.com/the-metalworks/stormlight-chasmfiend-compendium-public/releases/download/release-1.0.0/release-1.0.0.zip"
+}
